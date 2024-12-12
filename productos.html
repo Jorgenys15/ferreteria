@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Ferretería El Tornillo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .producto {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            text-align: center;
+            background: #fafafa;
+        }
+        
+        .producto img {
+            max-width: 50%;
+            height: auto;
+            margin-bottom: 1rem;
+        }
+        
+        #producto2 {
+            max-width: 90%;
+        }
+        
+        #producto3 {
+            max-width: 50%;
+        }
+        
+        #producto4 {
+            max-width: 60%;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Productos - Ferretería El Tornillo</h1>
+        <p>Explora nuestra variedad de productos</p>
+    </header>
+    <div class="container">
+        <h2>Nuestros Productos</h2>
+        <div class="productos">
+            <div class="producto">
+                <img src="martillo.png" alt="Martillo">
+                <h3>Martillo</h3>
+                <p>$10.00</p>
+                <p>Martillo de alta calidad para trabajos pesados.</p>
+            </div>
+            <div class="producto">
+                <img src="destornillador.png" alt="Destornillador">
+                <h3>Destornillador</h3>
+                <p>$5.00</p>
+                <p>Set de destornilladores con varias puntas.</p>
+            </div>
+            <div class="producto">
+                <img src="tornillos.png" alt="Tornillos" id="producto2">
+                <h3>Tornillos</h3>
+                <p>$2.50</p>
+                <p>Paquete de 50 tornillos de diferentes tamaños.</p>
+            </div>
+            <div class="producto">
+                <img src="Taladro.png" alt="Tornillos" id="producto3">
+                <h3>Taladro</h3>
+                <p>$2.50</p>
+                <p>Paquete de Taladro de diferentes tamaños.</p>
+            </div>
+            <div class="producto">
+                <img src="Manija.png" alt="Tornillos" id="producto4">
+                <h3>Manija</h3>
+                <p>$2.50</p>
+                <p>Paquete de manijas de diferentes estilos.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Ferretería El Tornillo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
